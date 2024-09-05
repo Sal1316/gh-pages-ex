@@ -5,7 +5,7 @@ body {
 }
 
 img {
-  width: 40em;
+  width: 50em;
   max-width: 90%;
-  padding-top: 2em;
+  padding-top: -4em;
 }
