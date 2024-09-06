@@ -4,8 +4,11 @@ body {
   text-align: center;
 }
 
-img {
-  width: 50em;
-  max-width: 90%;
-  padding-top: -4em;
+.container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Align items in a column. Puts text below.*/
+  text-align: center; /* Center text */
 }
